@@ -1,2 +1,2 @@
-A* and useful A* data structures:
+A-star and useful A-star data structures:
 http://theory.stanford.edu/~amitp/GameProgramming/
