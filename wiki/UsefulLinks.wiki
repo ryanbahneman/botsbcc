@@ -1,0 +1,2 @@
+A* and useful A* data structures:
+http://theory.stanford.edu/~amitp/GameProgramming/
