@@ -1,0 +1,44 @@
+#labels Featured
+We will be using the K&R C++ style convention
+It is a good balance between compactness and readability
+
+basically...
+for classes, namespaces, functions, exc. we start the '{' on a new line, whereas we do not for things within those containers (if, for, case-switch, while, exc.)
+
+
+
+for example:
+
+{{{
+class Vector
+{
+    public:
+        Vector();
+        int x, y;
+}
+
+Vector::Vector()
+{
+    if (true) {
+        x = 1;
+        y = 1;
+    } else {
+        x = 0;
+        y = 0;
+    }
+}
+}}}
+
+
+also, we put a space before a '(', only when it is a built-in operation (such as if or while), but not a function call.  We also always use '{...}', even when it isn't necessary (to reduce errors)
+
+for example:
+{{{
+customFunction(x, y);
+
+if (x > y) {
+    while (true) { // '{' isn't required, but we do it anyway
+        doSomething();
+    }
+}
+}}}
