@@ -1,11 +1,14 @@
 #labels Featured
+Aaron's suggestions for coding conventions
+what do you guys think?  It isn't *that* important if we are all working on diff. parts, but it would be nice to use a unified style.
+
+----
+
 We will be using the K&R C++ style convention
 It is a good balance between compactness and readability
 
 basically...
 for classes, namespaces, functions, exc. we start the '{' on a new line, whereas we do not for things within those containers (if, for, case-switch, while, exc.)
-
-
 
 for example:
 
@@ -42,3 +45,5 @@ if (x > y) {
     }
 }
 }}}
+
+though i didn't use them in the example, i think we should all use tabs for indenting.  this will allow each person to just select how much they like the code indented, and we can all be happy
