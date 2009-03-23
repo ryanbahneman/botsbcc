@@ -1,5 +1,5 @@
 #labels Featured
-Aaron's suggestions for coding conventions
+Aaron's suggestions for coding conventions.
 what do you guys think?  It isn't *that* important if we are all working on diff. parts, but it would be nice to use a unified style.
 
 ----
