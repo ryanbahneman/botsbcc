@@ -2,3 +2,5 @@ A-star and useful A-star data structures:
 http://theory.stanford.edu/~amitp/GameProgramming/
 
 This is going to be VERY helpful. Good find and from such an appropriate source :)
+
+Also, http://www.policyalmanac.org/games/aStarTutorial.htm
