@@ -14,9 +14,9 @@ Main
 // A* and Pathfinding
 Navigator
 
-//stores and creats the array
+//stores and creates the array
 Map
-
+*
 
 //functions for steering
 Driver
@@ -24,7 +24,7 @@ Driver
 *turnLeft()
 *forward(int) //pass int to set speed
 *reverse(int) //pass int to set speed
-*driveToNode(Node) //used for A*...A* will map best route and label decisions as nodes
+*driveToCell() //used for A*...A* will map best
 
 
 Hardware Interface
