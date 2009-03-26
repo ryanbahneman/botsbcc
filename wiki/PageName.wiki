@@ -15,7 +15,8 @@ Navigator
 
 //stores and creates the array
 Map
-*
+//returns a direction object based up the x and y coordinates passed in where the x and y are the cells coordinates that the robot is in that points to walls and open cells..
+* Directions openCells(int x, int y)
 
 //functions for steering
 Driver
@@ -30,9 +31,3 @@ Hardware Interface
 *setSpeedLeftWheel()     //pass in int from -100 to 100 in terms of % of speed negative means reverse
 
 *setSpeedRightWheel()    //pass in int from -100 to 100 in terms of % of speed negative means reverse
-
-*
-
-Maps
-//returns a direction object based up the x and y coordinates passed in where the x and y are the cells coordinates that the robot is in that points to walls and open cells..
-* Directions openCells(int x, int y)
