@@ -1,0 +1,40 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Add your content here.
+
+
+= Details =
+
+
+Main
+
+
+// A* and Pathfinding
+Navigator
+
+//stores and creats the array
+Map
+
+
+//functions for steering
+Driver
+*turnRight()
+*turnLeft()
+*forward(int) //pass int to set speed
+*reverse(int) //pass int to set speed
+*driveToNode(Node) //used for A*...A* will map best route and label decisions as nodes
+
+
+Hardware Interface
+*setSpeedLeftWheel()     //pass in int from -100 to 100 in terms of % of speed negative means reverse
+
+*setSpeedRightWheel()    //pass in int from -100 to 100 in terms of % of speed negative means reverse
+
+*
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
