@@ -1,6 +1,8 @@
 #labels Featured
 Aaron's suggestions for coding conventions.
-what do you guys think?  It isn't *that* important if we are all working on diff. parts, but it would be nice to use a unified style.
+
+When using the direction class remember that TRUE indicates a wall, FALSE indicates a path that can be navigated
+
 
 ----
 
