@@ -34,4 +34,5 @@ Hardware Interface
 *
 
 Maps
-* Directions openCells() //returns a direction object that points to walls and open cells
+//returns a direction object based up the x and y coordinates passed in where the x and y are the cells coordinates that the robot is in that points to walls and open cells..
+* Directions openCells(int x, int y)
