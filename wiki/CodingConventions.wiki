@@ -1,6 +1,4 @@
 #labels Featured
-Aaron's suggestions for coding conventions.
-
 When using the direction class remember that TRUE indicates a wall, FALSE indicates a path that can be navigated
 
 
