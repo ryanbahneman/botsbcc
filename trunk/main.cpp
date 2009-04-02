@@ -63,10 +63,10 @@ int main()
         dir=ptr->getWalls();
         showDirections(dir);
     }
+cout << endl;
 
 
-
- // drawMaze();
+drawMaze();
 }
 
 void  drawMaze(){
